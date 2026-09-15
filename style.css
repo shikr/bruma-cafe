@@ -96,14 +96,20 @@ main {
 }
 
 .features {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--bg-secondary);
+  /*background-color: var(--bg-secondary);*/
 
-  ul > li {
+  ul {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      gap: 4px;
+
+      object {
+        width: 18px;
+      }
+    }
   }
 }
