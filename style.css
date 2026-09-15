@@ -94,3 +94,16 @@ main {
     }
   }
 }
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-secondary);
+
+  ul > li {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
